@@ -1,6 +1,8 @@
 function toCase(text) {
   // write your code here 
-	return toLowerCase(text) - toUpperCase(text) 
+	 let lowerCase = text.toLowerCase();
+    let upperCase = text.toUpperCase();
+    return `${lowerCase}-${upperCase}`;
 }
 
 // DO not change the code below

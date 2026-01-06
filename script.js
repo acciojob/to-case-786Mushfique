@@ -1,5 +1,6 @@
 function toCase(text) {
-  // write your code here
+  // write your code here 
+	return toLowerCase(text) - toUpperCase(text) 
 }
 
 // DO not change the code below
